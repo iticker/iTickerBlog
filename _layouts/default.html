@@ -1,14 +1,38 @@
 {% include header.html %}
 <div class="wrap">
-<div class="main main_left">
+  <div class="main main_left">
+    {% for post in site.posts %}
+      <div class="post">  
+        <h2><a href='{{post.url}}'>{{ post.title }}</a></h2>
+        {{post.content}}
+        <p class="small">Posted {{post.pretty_date)}} &nbsp; <a data-disqus-identifier={{post.id}} href="{{post.url}}#disqus_thread">comments</a></p>      
+      </div>
+    {% endfor %}
+  </div>
+  <div class="sidebar sidebar_right">
+    <h2>iTICKER's Blog</h2>
+    <p class="small">Posting the inside scoop on new features and polite musings from The iTICKER Team, for all the world to see.</p>
+    <p class="small">If you have any questions or suggestions, <a href="#">contact us</a> and we'll do our best to address them.</p>
+    <p class="centre"><img src="/images/girl_blog.png"></p>
+    {% include categories.html %}
+  </div>
+</div>
 
-  {% for post in site.posts %}
-    <div class="post">  
-      <h2><a href='{{post.url}}'>{{ post.title }}</a></h2>
-      {{post.content}}
-    </div>
-  {% endfor %}
-  
+{% include footer.html %}
+
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'itickerblog'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
+
 
 
 <!--   <div id="history">
@@ -16,18 +40,4 @@
     <span class="newer"><a href="#">&laquo;Newer Posts</a></span>
     <a href="#">Home</a>
     <span class="older"><a href="#">Older Posts&raquo;</a></span></p>
-  </div><!-- end div#history --> 
-    </div>
-        <div class="sidebar sidebar_right">
-        <h2>iTICKER's Blog</h2>
-        <p class="small">Posting the inside scoop on new features and polite musings from The iTICKER Team, for all the world to see.</p>
-        <p class="small">If you have any questions or suggestions, <a href="#">contact us</a> and we'll do our best to address them.</p>
-        <p class="centre"><img src="/images/girl_blog.png"></p>
-        {% include categories.html %}
-      </div>
-      </div>
-  </div>
-
-
-{% include footer.html %}
-
+  </div><!-- end div#history -->

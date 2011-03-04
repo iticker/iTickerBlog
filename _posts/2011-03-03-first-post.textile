@@ -1,19 +1,18 @@
 ---
-layout: default
-meta_keywords: expressionengine, plugin, file, size, gb, mb, kb, human
-meta_description: An ExpressionEngine plugin that shows the size of a file in human readable format
-category: new-features
+layout: post
+meta_keywords: iticker, ticker, twitter, new features
+meta_description: We've revamped the iTICKER website - nothing special, no sequined nipple tassels, just a little smoothing out of some lumpy bits and throwing out of the old logo.
+categories: new-features
 title: Excited For Something New
-summary: Shows the size of a file in human readable format
+pretty_date: Thursday 3 March 2011
 ---
 
-<p class="small">Playing now: STIR IT UP by Bob Marley and The Wailers<br />
-Dinner tonight: leftover lentil curry</p>
+<p class="small">Playing now: STIR IT UP by Bob Marley and The Wailers<br /> Dinner tonight: leftover lentil curry</p>
 
-	<p>We've revamped the iTICKER website - nothing special, no sequined nipple tassels, just a little smoothing out of some lumpy bits and throwing out of the old logo.</p>
-	<p>There really are no pitfalls to doing this. It's not like we're the internet startup equivalent of Gap (we don't employ children for starters). Basically, who'll know?</p>
-	<p>The result, we think, is understated and inoffensive. Here are some brands that didn't do so well as that:</p>
-	<p><a href="http://www.hongkiat.com/blog/logo-design-gone-wrong/" target= "blank">Logo Design Gone Wrong - 10 Offbeat Examples</a></p>
-	<p>While we were at it, we also added 'retweet' and 'reply' buttons to the iTICKER twitter module.  Visitors to your sites can now scroll through and pause your tweets too (just hover over a tweet to pause).</p>
-	<p><img src="/images/blog_twitterfeed.png"></p>
-	<p class="small">Posted Thursday 3 March 2011 &nbsp; <a href="#">comments (0)</a></p>
+<p>We've revamped the iTICKER website - nothing special, no sequined nipple tassels, just a little smoothing out of some lumpy bits and throwing out of the old logo.</p>
+<p>There really are no pitfalls to doing this. It's not like we're the internet startup equivalent of Gap (we don't employ children for starters). Basically, who'll know?</p>
+<p>The result, we think, is understated and inoffensive. Here are some brands that didn't do so well as that:</p>
+<p><a href="http://www.hongkiat.com/blog/logo-design-gone-wrong/" target= "blank">Logo Design Gone Wrong - 10 Offbeat Examples</a></p>
+<p>While we were at it, we also added 'retweet' and 'reply' buttons to the iTICKER twitter module.  Visitors to your sites can now scroll through and pause your tweets too (just hover over a tweet to pause).</p>
+<p><img src="/images/blog_twitterfeed.png"></p>
+
