@@ -2,10 +2,10 @@
 <div class="wrap">
   <div class="main main_left">
     {% for post in site.posts %}
-      <div class="post">  
+      <div class="post">
         <h2><a href='{{post.url}}'>{{ post.title }}</a></h2>
         {{post.content}}
-        <p class="small">Posted {{post.pretty_date)}} &nbsp; <a data-disqus-identifier={{post.id}} href="{{post.url}}#disqus_thread">comments</a></p>      
+        <p class="small">Posted {{post.pretty_date)}} &nbsp; <a data-disqus-identifier={{post.id}} href="{{post.url}}#disqus_thread">comments</a></p>
       </div>
     {% endfor %}
   </div>
@@ -14,7 +14,6 @@
     <p class="small">Posting the inside scoop on new features and polite musings from The iTICKER Team, for all the world to see.</p>
     <p class="small">If you have any questions or suggestions, <a href="#">contact us</a> and we'll do our best to address them.</p>
     <p class="centre"><img src="/images/girl_blog.png"></p>
-    {% include categories.html %}
   </div>
 </div>
 

@@ -1,7 +1,7 @@
 {% include header.html %}
 <div class="wrap">
   <div class="main main_left">
-    <div class="post">  
+    <div class="post">
 
       <h2>{{ page.title }}</h2>
       {{ page.content }}
@@ -12,8 +12,8 @@
         var disqus_shortname = 'itickerblog'; // required: replace example with your forum shortname
 
         // The following are highly recommended additional parameters. Remove the slashes in front to use.
-        var disqus_identifier = "{{page.id}}";
-        var disqus_url = "{{page.url}}";
+        var disqus_identifier = "{{page.comment_id}}";
+        var disqus_url = "http://blog.itickerapp.com{{page.url}}";
         /* * * DON'T EDIT BELOW THIS LINE * * */
         (function() {
             var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
@@ -30,8 +30,6 @@
       <p class="small">Posting the inside scoop on new features and polite musings from The iTICKER Team, for all the world to see.</p>
       <p class="small">If you have any questions or suggestions, <a href="#">contact us</a> and we'll do our best to address them.</p>
       <p class="centre"><img src="/images/girl_blog.png"></p>
-      {% include categories.html %}
   </div>
 </div>
-
 {% include footer.html %}
