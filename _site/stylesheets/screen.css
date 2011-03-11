@@ -192,6 +192,11 @@ padding-bottom: 3em;
   left: 50%;
   margin-left: -32.5em;
 }
+
+#content .wrap {
+	padding-bottom: 1em;
+	background: #fff url(/images/bgHorizontalDivider.gif) no-repeat 50% 0%;
+}
   
 .sidebar,
 .sidenote {
